@@ -1,0 +1,17 @@
+.picture-slider {
+    display: flex;
+    overflow: hidden;
+    width: 600px; /* Set your desired image width */
+    height: 400px; /* Set your desired image height */
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+  }
+  
+  img.active {
+    transform: translateX(0%);
+  }
+  
